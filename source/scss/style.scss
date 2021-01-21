@@ -1,0 +1,30 @@
+@import "_variables";
+
+body {
+    background-color: adjust-hue($umber, 70deg);
+
+    h1, h2, h3, h4, h5, h6, p, input, textarea, input[type="text"], input[type="password"] {
+        font-family: $font_family;
+    }
+
+    h1, h2, h3 {
+        font-size: $font_size * 10;
+        color: mix($cambridge_blue, $artichoke, 5%);
+    }
+
+    h4, h5, h6 {
+        font-size: $font_size * 5;
+        color: $cambridge_blue;
+    }
+
+    p, input, textarea, table, figcaption, a {
+        font-size: $font_size;
+        color: $artichoke;
+    }
+    
+    img, input[type="text"], input[type="password"], textarea {
+        border-radius: $border_radius;
+    }
+}
+
+
